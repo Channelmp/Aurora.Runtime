@@ -9,7 +9,7 @@
 #endif
 
 #ifdef _DEV
-#define HOST_URL "http://localhost"
+#define HOST_URL "http://localhost:3551"
 #else
-#define HOST_URL "https://api.aurorafn.dev"
+#define HOST_URL "http://backend.channelmp.com:3551"
 #endif
