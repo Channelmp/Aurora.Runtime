@@ -4,12 +4,8 @@
 
 namespace aurora {
 	Program::Program() {
-		Util::InitConsole();
 
-		printf("Aurora.Runtime (%s) by Cyuubi.\n", BUILD_ID);
-#ifdef _PROD
-		printf("Aurora by Slushia, darkblade and irma.\n");
-#endif
+		printf("TV Bypass (%s) by Zetax.\n", BUILD_ID);
 		printf("Built on: %s at %s\n", __DATE__, __TIME__);
 
 		m_pCurl = new Curl;
