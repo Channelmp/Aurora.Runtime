@@ -33,11 +33,6 @@ namespace aurora {
 
 	public:
 
-			// Redirect stdout to our newly allocated console.
-			FILE* pFile;
-			freopen_s(&pFile, "CONOUT$", "w", stdout);
-		}
-
 		static uintptr_t BaseAddress() {
 			return reinterpret_cast<uintptr_t>(GetModuleHandle(0));
 		}
