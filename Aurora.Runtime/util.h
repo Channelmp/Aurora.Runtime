@@ -32,8 +32,6 @@ namespace aurora {
 		}
 
 	public:
-		static VOID InitConsole() {
-			AllocConsole();
 
 			// Redirect stdout to our newly allocated console.
 			FILE* pFile;
